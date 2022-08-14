@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.app_header {
+  max-width: 1528px;
+  height: 713px;
+  background-color: #535353;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.scan {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 700px;
+  height: 550px;
+}
+
+.content_left {
+  width: 550px;
+  text-align: center;
+  padding: 60px;
+  color: aliceblue;
+}
+
+.title_scan {
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.about_game {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.info_page {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 12px;
+  font-family: "Caveat", cursive;
+  margin-top: 70px;
+}
+
+.right {
+  width: 600px;
+  height: 550px;
+  position: relative;
+}
+
+.scaner_container {
+  position: absolute;
+  margin: 250px 150px;
+}
+
+.img_phone {
+  position: absolute;
+  width: 600px;
+  margin-left: 40px;
 }
