@@ -3,11 +3,12 @@ import phone from "../page/img/Vectary texture.png";
 import QRCodeBook from "qrcode.react";
 class ScanCode extends Component {
   state = {
-    value: "https://www.gog.com/",
+    value: "https://www.gog.com/", // add QR code website
   };
   render() {
     return (
       <>
+        {/* start left block */}
         <div className="container">
           <div className="scan">
             <div className="left">
@@ -25,7 +26,7 @@ class ScanCode extends Component {
                 </p>
               </div>
             </div>
-
+            {/* start right block */}
             <div className="right">
               <img className="img_phone" src={phone} alt="qrphone" />
 
